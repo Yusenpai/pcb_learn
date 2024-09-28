@@ -1,5 +1,23 @@
 # Vẽ sơ đồ mạch điện trên EasyEDA
 
+- [Vẽ sơ đồ mạch điện trên EasyEDA](#vẽ-sơ-đồ-mạch-điện-trên-easyeda)
+	- [Các bước thiết kế mạch điện](#các-bước-thiết-kế-mạch-điện)
+	- [Bước 1: Thiết kế sơ đồ mạch điện](#bước-1-thiết-kế-sơ-đồ-mạch-điện)
+		- [Thao tác cơ bản](#thao-tác-cơ-bản)
+		- [Wiring Tools](#wiring-tools)
+		- [Drawing tools](#drawing-tools)
+		- [Tìm linh kiện ở đâu ?](#tìm-linh-kiện-ở-đâu-)
+		- [Kiểu đóng gói và Footprint](#kiểu-đóng-gói-và-footprint)
+		- [Vẽ sơ đồ mạch](#vẽ-sơ-đồ-mạch)
+			- [ESP32](#esp32)
+			- [DHT11 và OLED](#dht11-và-oled)
+			- [Nạp code dùng CH340N](#nạp-code-dùng-ch340n)
+			- [Sử dụng Net label và Net Port](#sử-dụng-net-label-và-net-port)
+			- [Reset và Boot](#reset-và-boot)
+			- [Khối nguồn](#khối-nguồn)
+		- [Kiểm tra lại mạch điện](#kiểm-tra-lại-mạch-điện)
+
+
 ## Các bước thiết kế mạch điện
 
 1. Thiết kế sơ đồ mạch điện

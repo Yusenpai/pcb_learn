@@ -1,5 +1,20 @@
 # Vẽ mạch in trên EasyEDA
 
+- [Vẽ mạch in trên EasyEDA](#vẽ-mạch-in-trên-easyeda)
+  - [Các thao tác cơ bản khi vẽ mạch in](#các-thao-tác-cơ-bản-khi-vẽ-mạch-in)
+  - [Các công cụ vẽ](#các-công-cụ-vẽ)
+  - [Cấu tạo của PCB](#cấu-tạo-của-pcb)
+  - [Bước 2: Vẽ outline cho PCB](#bước-2-vẽ-outline-cho-pcb)
+    - [Cài đặt Design Rule](#cài-đặt-design-rule)
+  - [Bước 3: Đặt linh kiện lên PCB](#bước-3-đặt-linh-kiện-lên-pcb)
+    - [Chỉnh sửa sơ đồ mạch điện, footprint, mô hình 3D nếu cần thiết](#chỉnh-sửa-sơ-đồ-mạch-điện-footprint-mô-hình-3d-nếu-cần-thiết)
+  - [Bước 4: PCB layout](#bước-4-pcb-layout)
+    - [Chọn kích thước dây](#chọn-kích-thước-dây)
+    - [Đi dây](#đi-dây)
+    - [Đổ đồng cho GND](#đổ-đồng-cho-gnd)
+    - [Kiểm tra DRC](#kiểm-tra-drc)
+    - [Những bước cuối cùng...](#những-bước-cuối-cùng)
+
 
 ## Các thao tác cơ bản khi vẽ mạch in
 
@@ -56,7 +71,7 @@ Sau khi vẽ Outline, đặt các lỗ (để gắn board) cho phù hợp.
 
 Sau đó để dành các vị trí phù hợp cho nút nhấn, cổng USB, led,...
 
-## Cài đặt Design Rule
+### Cài đặt Design Rule
 
 Khi vẽ PCB, ta có thể gặp các trường hợp vẽ dây quá sát nhau, đặt via quá sát nhau, via quá nhỏ, dây dẫn không đủ rộng,... Bên thi công mạch sẽ không thể thi công các mạch này hoặc có thể nhưng chi phí sẽ tăng cao.
 
@@ -81,7 +96,7 @@ Các thông số này lấy từ trang web của nhà sản xuất mạch in. Th
   - Các tụ lọc của CH340N phải đặt sát chân nguồn của CH340N. Cả khối CH340N phải đặt gần cổng USB.
   - Đặt linh kiện sao cho chiều đi dây thuận tiện.
 
-## Chỉnh sửa sơ đồ mạch điện, footprint, mô hình 3D nếu cần thiết
+### Chỉnh sửa sơ đồ mạch điện, footprint, mô hình 3D nếu cần thiết
 
 Sau khi đặt linh kiện xong, có thể thay đổi sơ đồ mạch điện, footprint, mô hình 3D nếu thấy cần thiết. Ví dụ: Nút nhấn đang sử dụng là nút nhấn theo hướng thẳng đứng, có thể gây khó khăn khi nhấn. Ta thay thế nút này trong sơ đồ mạch điện bằng nút nhấn theo hướng ngang, rồi cập nhật lại PCB.
 
