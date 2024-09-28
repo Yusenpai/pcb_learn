@@ -1,0 +1,4 @@
+- Vẽ sơ đồ mạch: https://youtu.be/PRA1Vi847Pk
+- Vẽ PCB P1: https://youtu.be/36TzJTMXN4M
+- Vẽ PCB P2: https://youtu.be/_uB_t1YEerg
+- Vẽ MT1470: https://youtu.be/gbkhL5r8HVc
