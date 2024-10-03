@@ -70,7 +70,7 @@ Ngoại vi điều khiển CAN (CAN Controller) bên trong vi điều khiển c�
 
 Các chân này nối với IC giao tiếp bus CAN (CAN Transceiver), chẳng hạn như MCP2551 để chuyển thành tín hiệu CANH và CANL:
 
-![](https://www.researchgate.net/profile/Theyazn-Aldhyani/publication/357556599/figure/fig1/AS:1108491192274945@1641296303339/The-CAN-bus-interface.ppm)
+![](images/The-CAN-bus-interface.ppm.png)
 
 Bus CAN cho phép nhiều thiết bị cùng kết nối. Ở hai đầu bus CAN là trở Terminating, giá trị là 120 Ohm.
 
