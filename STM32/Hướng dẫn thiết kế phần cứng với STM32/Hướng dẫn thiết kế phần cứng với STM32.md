@@ -26,7 +26,7 @@ Bài viết này hướng dẫn thiết kế phần cứng với vi điều khi�
 
 ## Tài liệu tham khảo
 
-[1] STMicroelectronics, "Getting started with STM32F10xxx hardware development", AN2586 Application note, Rev 8, December 2022. [Link](an2586-getting-started-with-stm32f10xxx-hardware-development-stmicroelectronics.pdf)
+Bài viết này tham khảo các tài liệu: AN2606, AN2586 và datasheet của STM32F103C8. Xem PDF đi kèm.
 
 ## Nguồn
 
